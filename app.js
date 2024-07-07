@@ -22,7 +22,7 @@ function menssagemInicial(){
 function verificarChute() {
   let chute = document.querySelector('input').value; 
   if( chute == numeroSecreto ){
-    ExibirNaTela('#titulo','Você acetou!');
+    ExibirNaTela('#titulo','Você acertou!');
     let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'; 
     let menssagem = `Você descobriu com ${tentativas} ${palavraTentativa} !`; 
     ExibirNaTela('.primeiroParagrafo', menssagem); 
